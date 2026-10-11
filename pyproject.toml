@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "finzdata"
+version = "0.1.4"
+description = "FinzData market data client: yfinance-style prices plus COT, SEC fundamentals, point-in-time macro and more"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = ["pandas>=1.5", "httpx>=0.24", "pyarrow>=12"]
+keywords = ["market data", "stocks", "yfinance", "cot", "sec", "fred", "finance", "api", "m2", "money supply", "liquidity", "tic", "backtesting"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Intended Audience :: Financial and Insurance Industry",
+  "Topic :: Office/Business :: Financial :: Investment",
+  "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://finzdata.com"
+Documentation = "https://finzdata.com/docs"
+Pricing = "https://finzdata.com/pricing"
+Status = "https://finzdata.com/status"
+Guides = "https://finzdata.com/guides"
+"COT data" = "https://finzdata.com/cot"
+"13F holdings" = "https://finzdata.com/13f"
+
+[tool.setuptools]
+packages = ["finzdata"]
