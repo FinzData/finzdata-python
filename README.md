@@ -49,6 +49,7 @@ t.earnings_dates            # SEC 8-K Item 2.02 since 2004
 - SEC XBRL fundamentals, as reported and point-in-time
 - US macro series with every vintage (FRED/ALFRED), plus a release calendar
 - FinzData Quantitative Model: macro regime labels, a nowcast and a market-stress probability
+- Futures: 142 markets, every contract since 2007, daily and 1-minute to hourly bars, continuous series: `c.futures("ES", continuous=True)`
 - Licensed series: Moody's, University of Michigan, Case-Shiller, ICE BofA, Cboe (incl. the VIX futures curve)
 
 Guides (13F, COT, macro vintages, intraday, delisted stocks): https://finzdata.com/guides ·
