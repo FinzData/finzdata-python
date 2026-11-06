@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "finzdata": {
+      "type": "http",
+      "url": "https://api.finzdata.com/mcp"
+    }
+  }
+}
