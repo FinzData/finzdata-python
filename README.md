@@ -1,3 +1,5 @@
+<p align="center"><a href="https://finzdata.com"><img src="https://finzdata.com/assets/brand/finzdata-logo-full.png" alt="FinzData" width="360"></a></p>
+
 # finzdata
 
 Python client for the [FinzData](https://finzdata.com) market data API. It works like yfinance and adds
